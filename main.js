@@ -36,6 +36,6 @@ videoBtn.forEach(btn =>{
         document.querySelector('.control .active').classList.remove('active');
         btn.classList.add('active');
         let src = btn.getAttribute('data-src');
-        document.querySelector('#video-solid').src =src;
+        document.querySelector('#video-solid').src = src;
     });
 });
